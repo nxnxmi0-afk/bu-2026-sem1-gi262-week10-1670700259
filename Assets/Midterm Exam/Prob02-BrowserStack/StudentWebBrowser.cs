@@ -30,7 +30,10 @@ namespace MidtermExam.Prob02
         public void Open(string url)
         {
             // TODO: เขียนคำตอบแทนคำสั่ง throw exception ด้านล่าง
-            throw new NotImplementedException();
+            Stack<string> stack = new Stack<string>();
+            stack.Push(url);
+            backHistory.Push(url);
+            forwardHistory.Push(url);
         }
 
         /// <summary>ย้อนกลับไปยังหน้าล่าสุดในประวัติย้อนกลับหนึ่งขั้น</summary>

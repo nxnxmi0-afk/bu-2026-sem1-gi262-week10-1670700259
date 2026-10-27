@@ -23,6 +23,12 @@ namespace MidtermExam.Prob01
         public int AS01_CountVowels(Queue<string> alphabets)
         {
             // TODO: เขียนคำตอบแทนคำสั่ง throw exception ด้านล่าง
+            Queue<string> queue = new Queue<string>();
+            queue.Enqueue();
+            queue.Enqueue();
+            queue.Enqueue();
+
+            const int count = 10;
             throw new NotImplementedException();
         }
     }
